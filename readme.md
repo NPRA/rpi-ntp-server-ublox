@@ -2,7 +2,7 @@
 Rasbian NTP Server
 ==================
 
-First of all, big thanks to [Patrick O'Keeffe](https://github.com/patricktokeeffe/rpi-ntp-server) the base of this fork.
+First of all, big thanks to [Patrick O'Keeffe](https://github.com/patricktokeeffe/rpi-ntp-server)for the base of this fork.
 
 Setup guide for a Stratum 1 NTP server using U-blox ZED-F9R GNSS receiver & Raspberry Pi.
 
@@ -23,14 +23,11 @@ required for setup (i.e. keyboard, mouse, monitor).
 
 ### Assembly
 
-Assembling the 
+Assembling the ZED-F9R pHAT is as easy as stacking it on top of the Raspberry Pi GPIO comb, but in order to get the PPS-signal, some smaller modifications needs to be done. 
 
 ### Software Setup
 
-> Previously, this project used `ntpd` on *Raspbian Jessie*. Instructions
-> are still provided for reference purposes [here](raspbian-jessie.md).
-
-The latest version of this project is based on [Ubuntu Mate 16.04 LTS](ubuntu-mate.org)
+The latest version of this project is based on [Raspberry Pi OS Lite](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit)
 with `chrony` and `gpsd`.
 
 #### Enable serial port
