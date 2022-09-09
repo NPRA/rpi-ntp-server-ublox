@@ -2,7 +2,9 @@
 Rasbian NTP Server
 ==================
 
-Setup guide for a Stratum 1 NTP server using GPS receiver & Raspberry Pi.
+First of all, big thanks to [Patrick O'Keeffe](https://github.com/patricktokeeffe/rpi-ntp-server) the base of this fork.
+
+Setup guide for a Stratum 1 NTP server using U-blox ZED-F9R GNSS receiver & Raspberry Pi.
 
 ### Materials
 
@@ -13,23 +15,15 @@ required for setup (i.e. keyboard, mouse, monitor).
     * a quality micro SD card (class 10 recommended)
     * a quality power supply
     * a case (to protect, and dampen temperature fluctuations)
-* [Adafruit Ultimate GPS Breakout version 3](https://www.adafruit.com/products/746)
-    * CR1220 Lithium Coin Cell Battery 3V
+* [SparkFun GPS-RTK Dead Reckoning pHAT for Raspberry Pi](https://www.sparkfun.com/products/16475?_ga=2.146295924.1923577196.1662707414-633814070.1662707414)
     * SMA to uFL/u.FL/IPX/IPEX RF Adapter Cable
     * GPS Antenna, External, Active, 3-5V 28dB 5m SMA
-* Optional components for clock display:
-    * [Adafruit 1.2" 4-Digit 7-Segment Display w/I2C Backpack - Red](https://www.adafruit.com/product/1270)
-    * [Adafruit 0.56" 4-Digit 7-Segment Display w/I2C Backpack - Red](https://www.adafruit.com/product/878)
+* Soldering iron
+* Dupoint female connector
 
 ### Assembly
 
-This diagram applies to the newer Pi Model 3 B+, and the original hardware
-used for this project, the Pi Model 1 B+:
-
-![Hardware diagram](images/hardware-diagram.png)
-
-**TODO** add diagram for clock display components, and include
-usage of prototyping board
+Assembling the 
 
 ### Software Setup
 
